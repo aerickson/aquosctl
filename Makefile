@@ -6,6 +6,9 @@ aquosctl: aquosctl.c
 aquosctl-new: aquosctl.c
 	$(CC) -DNEWER_PROTOCOL -o aquosctl aquosctl.c
 
+install:
+	sudo install ./aquosctl /usr/local/bin/aquosctl
+
 clean:
 	rm -f aquosctl
 
