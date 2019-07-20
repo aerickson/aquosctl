@@ -782,8 +782,7 @@ int  argc,
 			else if (strcmp(arg, ".") == 0) {
 				sprintf(param, "%-4s", "10");
 			}
-			else if (strcmp(arg, "ent") == 0 ||
-			         strcmp(arg, "enter") == 0) {
+			else if (strcmp(arg, "ent") == 0) {
 				sprintf(param, "%-4s", "11");
 			}
 			else if (strcmp(arg, "power") == 0) {
